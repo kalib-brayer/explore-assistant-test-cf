@@ -12,6 +12,6 @@ application: explore_assistant_test_cf {
     new_window: yes
     new_window_external_urls: ["https://developers.generativeai.google/*"]
     local_storage: yes
-    # external_api_urls: ["cloud function url"]
+    external_api_urls: ["https://us-central1-explore-assistant-test.cloudfunctions.net/explore-assistant-api"]
   }
 }
