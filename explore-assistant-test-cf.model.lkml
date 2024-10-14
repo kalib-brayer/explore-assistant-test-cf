@@ -12,10 +12,10 @@ datagroup: explore_assistant_kb_default_datagroup {
 
 persist_with: explore_assistant_kb_default_datagroup
 
-access_grant: explore_assistant_tester {
-  allowed_values: ["yes"]
-  user_attribute: explore_assistant_test_group
-}
+# access_grant: explore_assistant_tester {
+#   allowed_values: ["yes"]
+#   user_attribute: explore_assistant_test_group
+# }
 
 # Explores allow you to join together different views (database tables) based on the
 # relationships between fields. By joining a view into an Explore, you make those
@@ -29,13 +29,13 @@ access_grant: explore_assistant_tester {
 # Each joined view also needs to define a primary key.
 
 explore: explore_assistant_samples {
-  required_access_grants: [explore_assistant_tester]
+  # required_access_grants: [explore_assistant_tester]
 }
 
 explore: explore_assistant_examples {
-  required_access_grants: [explore_assistant_tester]
+  # required_access_grants: [explore_assistant_tester]
 }
 
 explore: explore_assistant_refinement_examples {
-  required_access_grants: [explore_assistant_tester]
+  # required_access_grants: [explore_assistant_tester]
 }
