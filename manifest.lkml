@@ -1,7 +1,7 @@
 project_name: "explore-assistant-test-cf"
 
 application: explore_assistant_test_cf {
-  label: "Explore Assistant (Cloud Function)"
+  label: "Explore Assistant (CF - Main Branch)"
    #url: "https://localhost:8080/bundle.js"
    file: "bundle.js"
   entitlements: {
